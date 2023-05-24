@@ -17,7 +17,7 @@ const CarouselComponent = ({items}) => {
     centerMode={true}
     centerSlidePercentage={80}
     dynamicHeight={false}
-    className="overflow-hidden rounded-lg w-[800px]">
+    className="overflow-hidden rounded-lg w-[800px] hidden md:block ">
       {items.map((item, index) => (
         <div key={index}>
           <img src={item.image} alt={`Slide ${index}`} />

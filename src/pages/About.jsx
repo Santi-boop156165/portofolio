@@ -49,7 +49,7 @@ const About = () => {
                        whileInView={"show"}
                        viewport={{ once: false, amount: 0.8 }}
                       className="btn w-9 h-9 mb-[42px] flex justify-center items-center" href="#">
-                        <BsHeartFill/>
+                        <BsHeartFill />
                       </motion.p>
                     </article>
                     </div>

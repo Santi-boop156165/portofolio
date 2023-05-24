@@ -7,15 +7,15 @@ export const Services = () => {
   return (
     <div id="services" className="section">
       <section className="container mx-auto">
-        <section className="flex flex-col lg:flex-row gap-x-10 gap-y-10">
+        <section className="flex flex-col lg:flex-row gap-x-10">
           <motion.article
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.4 }}
-            className="flex-1 flex flex-col  lg:mb-0"
+            className="flex-1 flex flex-col gap-y-4 mb-10 lg:mb-0"
           >
-            <asidie className="flex-1 flex flex-col mb-6 ">
+            <asidie className="">
               <h2 className="leading-tight font-primary text-[2.0rem]  font-bold ">
                 Mis Proyectos !!!!!!!!! <br />
               </h2>
@@ -27,11 +27,13 @@ export const Services = () => {
                 vivir.{" "}
               </p>
 
-              <button className="btn btn-sm font-semibold transform transition-all duration-200 hover:-translate-y-1 focus:outline-none">
-                Ven a conocer my github
-              </button>
+              <a href="https://github.com/Santi-boop156165" target="_bank">
+                <button className="btn btn-sm font-semibold transform transition-all duration-200 hover:-translate-y-1 focus:outline-none">
+                  Ven a conocer my github
+                </button>
+              </a>
             </asidie>
-            <aside className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            <aside className="group relative overflow-hidden border-2 border-white/50 rounded-xl ">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-500"></div>
               <img
                 className="group-hover:scale-125 transition-all  duration-500"
@@ -52,7 +54,7 @@ export const Services = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.4 }}
-            className="flex-1 flex flex-col gap-y-12 md:gap-y-32 "
+            className="flex-1 flex flex-col   lg:gap-[109px] xl:gap-10"
           >
             <aside className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-500"></div>

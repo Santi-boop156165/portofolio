@@ -1,12 +1,18 @@
-import img from "../assets/fondo.jpg"
+import img from "../assets/imgs1.jpg"
+import img2 from "../assets/imgs2.jpg"
+import img3 from "../assets/imgs3.jpg"
 export const carouselItems = [
     {
       image: img,
-      text: 'Texto del primer slide',
+      text: 'MIS PASIONES',
     },
     {
-      image: img,
-      text: 'Texto del segundo slide',
+      image: img2,
+      text: 'MIS PASIONES',
     },
+    {
+      image: img3,
+      text: 'MIS PASIONES',
+    }
 
   ];

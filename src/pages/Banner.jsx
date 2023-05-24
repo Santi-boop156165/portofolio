@@ -5,6 +5,7 @@ import gif from "../../assets/gif.png";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../Variant";
+
 const Banner = () => {
   return (
     <section
@@ -77,7 +78,7 @@ const Banner = () => {
               <button  className="btn btn-lg font-primary">
                 
                 <Link to="contact">CONTACTA MEE!! ✔</Link> </button>
-              <a className="text-gradient ml-4 text-xl font-primary ">DESCARGA CVV</a>
+              <a href="../../public/Cvv.pdf" download={""} className="text-gradient ml-4 text-xl font-primary ">DESCARGA CVV</a>
             </motion.div>
           </article>
           <motion.aside
